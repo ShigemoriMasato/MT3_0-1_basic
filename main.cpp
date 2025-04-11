@@ -64,9 +64,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// ライブラリの初期化
 	Novice::Initialize(kWindowTitle, 1280, 720);
 
-	Vector3 vec1 = { 1.0f, 2.0f, 3.0f };
-	Vector3 vec2 = { 4.0f, 5.0f, 6.0f };
-	float scalar = 2.0f;
+	Vector3 vec1 = { 1.0f, 3.0f, -5.0f };
+	Vector3 vec2 = { 4.0f, -1.0f, 2.0f };
+	float scalar = 4.0f;
 
 	Vector3 add = Add(vec1, vec2);
 	Vector3 sub = Subtract(vec1, vec2);
